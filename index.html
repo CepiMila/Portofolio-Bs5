@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portofolio | Cepi Saipul Mila</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- My CSS -->
+     <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info shadow-sm fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Cepi Saipul Mila</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#galeri">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#kontak">Kontak</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Akhir NAvbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+        <img src="img/Foto9.jpg" alt="Cepi Saipul Mila" width="170" 
+        class="rounded-circle img-thumbnail"/>
+        <h1 class="display-4" style="color: white;">Cepi Saipul Mila</h1>
+        <p class="lead" style="color: white;">Seorang Mahasiswa Informatika</p>
+    </section>
+     <!-- Akhir Jumbotron -->
+      <!-- About -->
+      <section id="about">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col">
+              <h2 style="color:white;">About Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center fs-5">
+            <div class="col-md-4">
+              <p class ="text-white">"Di dunia yang selalu berubah ini, saya berusaha untuk tetap relevan dengan belajar, beradaptasi, dan menciptakan solusi yang inovatif. Setiap proyek adalah kesempatan baru untuk mencerminkan nilai dan kreativitas saya."</p>
+            </div>
+            <div class="col-md-4">
+              <p class="text-white">"Saya bukan hanya seorang developer/designer, tapi seorang yang ingin membuat perbedaan. Setiap proyek adalah kesempatan untuk memberikan nilai yang lebih, di mana detail kecil dan eksekusi sempurna menjadi standar yang saya pegang."</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+       <!-- Akhir About -->
+
+       <!-- Project -->
+<section id="galeri">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col">
+        <h2 style="color: white;">My galeri</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/myProject/Profil.jpg" class="card-img-top" alt="galeri1">
+          <div class="card-body">
+            <p class="card-text" style="text-align: center">Masih Sendiri.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/myProject/Foto6.jpg" class="card-img-top" alt="galeri2">
+          <div class="card-body">
+            <p class="card-text" style="text-align: center" >Penghilang stres sementara.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/myProject/Foto5.jpg" class="card-img-top" alt="galeri3">
+          <div class="card-body">
+            <p class="card-text" style="text-align: center;">Mountain.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/myProject/Foto10.jpg" class="card-img-top" alt="galeri4">
+          <div class="card-body">
+            <p class="card-text" style="text-align: center">Berdua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="card">
+          <img src="img/myProject/Foto4.jpg" class="card-img-top" alt="galeri5">
+          <div class="card-body">
+            <p class="card-text" style="text-align: center">Family.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+       <!-- Akhir Project -->
+        <!-- Kontak -->
+         <section id="kontak">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col">
+                <h2 style="color: white;">Kontak Me</h2>
+              </div>
+            </div>
+                  <form action="https://formspree.io/f/mwpkvljk" method="POST">
+                      <div class="mb-3">
+                          <label for="name" class="form-label">Nama</label>
+                          <input type="text" class="form-control" id="name" name="name" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="email" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                      </div>
+                      <div class="mb-3">
+                          <label for="message" class="form-label">Pesan</label>
+                          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Kirim</button>
+                  </form>
+          </div>
+        <!-- Akhir Kontak -->
+
+        <!-- Footer -->
+         <footer class="text-white text-center pb-5">
+          <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/cepisaipulmila/" class="text-white fw-bold">Cepi Saipul Mila</a></p>
+         </footer>
+        <!-- Akhir Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
